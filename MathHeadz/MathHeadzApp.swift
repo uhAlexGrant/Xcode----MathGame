@@ -11,7 +11,7 @@ import SwiftUI
 struct MathHeadzApp: App {
     var body: some Scene {
         WindowGroup {
-            EquationView()
+            KeypadView()
         }
     }
 }

@@ -14,6 +14,8 @@
 		A48B8285287F69D000211C7D /* MathHeadzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B8284287F69D000211C7D /* MathHeadzTests.swift */; };
 		A48B828F287F69D000211C7D /* MathHeadzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B828E287F69D000211C7D /* MathHeadzUITests.swift */; };
 		A48B8291287F69D000211C7D /* MathHeadzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B8290287F69D000211C7D /* MathHeadzUITestsLaunchTests.swift */; };
+		FA7B5C962880B7CF0012974B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B5C952880B7CF0012974B /* SwiftUIView.swift */; };
+		FA7B5C982880CDB00012974B /* keypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B5C972880CDB00012974B /* keypadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		A48B828A287F69D000211C7D /* MathHeadzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathHeadzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48B828E287F69D000211C7D /* MathHeadzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathHeadzUITests.swift; sourceTree = "<group>"; };
 		A48B8290287F69D000211C7D /* MathHeadzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathHeadzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA7B5C952880B7CF0012974B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		FA7B5C972880CDB00012974B /* keypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keypadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				A48B8275287F69CF00211C7D /* EquationView.swift */,
+				FA7B5C952880B7CF0012974B /* SwiftUIView.swift */,
+				FA7B5C972880CDB00012974B /* keypadView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7B5C982880CDB00012974B /* keypadView.swift in Sources */,
 				A48B8276287F69CF00211C7D /* EquationView.swift in Sources */,
 				A48B8274287F69CF00211C7D /* MathHeadzApp.swift in Sources */,
+				FA7B5C962880B7CF0012974B /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
