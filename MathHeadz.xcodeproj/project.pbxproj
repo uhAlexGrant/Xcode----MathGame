@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A48B8274287F69CF00211C7D /* MathHeadzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B8273287F69CF00211C7D /* MathHeadzApp.swift */; };
-		A48B8276287F69CF00211C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B8275287F69CF00211C7D /* ContentView.swift */; };
+		A48B8276287F69CF00211C7D /* EquationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B8275287F69CF00211C7D /* EquationView.swift */; };
 		A48B8278287F69CF00211C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48B8277287F69CF00211C7D /* Assets.xcassets */; };
 		A48B827B287F69CF00211C7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48B827A287F69CF00211C7D /* Preview Assets.xcassets */; };
 		A48B8285287F69D000211C7D /* MathHeadzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B8284287F69D000211C7D /* MathHeadzTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		A48B8270287F69CF00211C7D /* MathHeadz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathHeadz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48B8273287F69CF00211C7D /* MathHeadzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathHeadzApp.swift; sourceTree = "<group>"; };
-		A48B8275287F69CF00211C7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A48B8275287F69CF00211C7D /* EquationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationView.swift; sourceTree = "<group>"; };
 		A48B8277287F69CF00211C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A48B827A287F69CF00211C7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A48B8280287F69D000211C7D /* MathHeadzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathHeadzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				A48B8273287F69CF00211C7D /* MathHeadzApp.swift */,
-				A48B8275287F69CF00211C7D /* ContentView.swift */,
+				A48B829D287F8CDD00211C7D /* Views */,
 				A48B8277287F69CF00211C7D /* Assets.xcassets */,
 				A48B8279287F69CF00211C7D /* Preview Content */,
 			);
@@ -125,6 +125,14 @@
 				A48B8290287F69D000211C7D /* MathHeadzUITestsLaunchTests.swift */,
 			);
 			path = MathHeadzUITests;
+			sourceTree = "<group>";
+		};
+		A48B829D287F8CDD00211C7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A48B8275287F69CF00211C7D /* EquationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48B8276287F69CF00211C7D /* ContentView.swift in Sources */,
+				A48B8276287F69CF00211C7D /* EquationView.swift in Sources */,
 				A48B8274287F69CF00211C7D /* MathHeadzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
